@@ -77,3 +77,17 @@ have model and tocken customizations on hintActions
                             )
                             ->columnSpanFull(),
 ```
+
+Example Below
+
+```php
+  ->withAI([
+        'model' => 'gpt-4',
+        'max_tokens' => 100,
+        'temperature' => 0.7,
+    ])
+```
+Have coming soon Message for
+
+-[] Images
+-[] Other AI API's
